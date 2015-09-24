@@ -1,0 +1,38 @@
+.header-menu{
+    background-color: $bgBlue;
+    color: $txtWhite;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.site-title{
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.site-link{
+    color: $txtWhite;
+	text-decoration: none;
+	transition: background 500ms ease;
+    &:hover{
+        color: $txtWhite;
+    }
+}
+
+.site-subtitle{
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: bold;
+	color: darken($txtWhite, 10%);
+}
+
+.menu-list-link{
+    color: $txtWhite;
+    text-decoration: none;
+    
+    &:hover{
+        background-color: $txtWhite;
+        transition: background 500ms ease;
+        color: $bgBlue;
+        border-bottom: 3px solid $bgBlue;
+    }
+}

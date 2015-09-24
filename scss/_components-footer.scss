@@ -1,0 +1,47 @@
+.footer{
+	background-color: $bgBlue;
+	color: $txtWhite;
+}
+
+.footer-section-list{
+    list-style-type: none;
+}
+
+.footer-section-list-item-title{
+    font-weight: bold;
+}
+
+.footer-section-list-link{
+    color: $txtWhite;
+    
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.footer-sitemap{
+    .footer-section-list-link{
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+.footer-contact{
+    .footer-section-list-link:hover{
+        font-weight: bold;
+    }
+}
+
+.footer-social{
+    .footer-section-list-link{
+    
+    }
+    .footer-section-list-item{
+        transition: transform 500ms ease;
+        
+        &:hover{
+            transform: scale(1.2);
+            transition: transform 500ms ease;
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.about{
+	position: relative;
+	padding-bottom: 1em;
+}
+
+.button-about-preview{
+    position: absolute;
+    left: 0em;
+    top: 8.5em;
+}
+
+.about-title{
+	margin: 0;
+	font-size: 1.5em;
+}
+
+.about-image{
+	width: 12.5em;
+	height: 12.5em;
+	margin: 1.5em;
+}
+
+.about-list{
+    padding: 1em;
+}
+
+.about-text{
+	position: absolute;
+	left: 16em;
+	top: 5em;
+}
+
+.about-long-text{
+    display: inline-block;
+    width: 61%;
+}
+
+.about-text-page{
+    position: relative;
+    left: inherit;
+    top: inherit;
+    display: inline-block;
+    margin-left: 1.5em;
+}
+
+.about-vignette{
+    width: 34%;
+    font-size: 0.85em;
+    display: inline-block;
+    padding: 1em;
+    position: relative;
+    top: -6em;
+    
+    .about-list{
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    
+    .about-list-item{
+        margin-bottom: 0.5em;
+    }
+    
+    .about-image-wrapper{
+        text-align: center;
+    }
+    
+    .about-image{
+        margin: 0.5em auto;
+    }
+    
+    .button{
+        position: absolute;
+        top: 49em;
+        text-align: center;
+        width: 90%;
+    }
+}

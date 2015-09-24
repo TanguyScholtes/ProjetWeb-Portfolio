@@ -1,0 +1,70 @@
+/*-----------SETTINGS------------*/
+//Default values & breakpoints
+
+
+/*------------TOOLS------------*/
+//Mixins, variables & functions
+
+@import "tools-colors";
+@import "tools-mixins";
+
+
+/*------------GENERIC-----------*/
+//Basic definitions for generic elements
+
+@import "normalize";
+@import "boilerplate";
+
+
+/*------------BASE------------*/
+//Low-specificity rules for your particular project
+html {
+	background-color: $bgWhite;
+}
+
+body {
+	position: relative;
+	color: $txtBlack;
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+.wrapper{
+    margin: 4em auto 5em auto;
+	width: 60em;
+}
+
+.title-hidden{
+    display: none;
+}
+
+.work-overview{
+    width: 60em;
+}
+
+/*------------OBJECTS------------*/
+//Structure, location and behaviour of repeating sections in your pages
+
+@import "objects-header-menu";
+@import "objects-button";
+@import "objects-form";
+@import "objects-media";
+@import "objects-footer";
+@import "objects-about";
+@import "objects-last-works";
+
+
+/*------------COMPONENTS------------*/
+//Aspects of those repeating sections
+
+@import "components-header-menu";
+@import "components-button";
+@import "components-form";
+@import "components-media";
+@import "components-footer";
+@import "components-about";
+@import "components-last-works";
+
+
+/*------------TRUMPS-------------*/
+//Rules you want to win in every situation
+

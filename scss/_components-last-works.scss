@@ -1,0 +1,55 @@
+.last-works{
+	border-top: 1px solid $txtGrey;
+}
+
+.last-work{
+	background-color: $txtBlack;
+	color: white;
+	border-radius: 1em;
+}
+
+.last-work-link{
+	text-decoration: none;
+	color: rgba(255,255,255,0); 	//Blanc transparent
+	border-radius: 1em;
+	border: 2px solid $bgBlue;
+}
+
+.last-work-1{
+    .last-work-link{
+	   background-image: url("../img/LoLActu.jpg");
+	   background-position: 50% 30%;
+    }
+}
+
+.last-work-2{
+    .last-work-link{
+	   background-image: url("../img/HeroesOfTheStorm.jpg");
+	   background-position: 30% 18.5%;
+    }
+}
+
+.last-work-3{
+    .last-work-link{
+	   background-image: url("../img/ConfrerieDesTraducteursSkyrim.jpg");
+	   background-position: 50% 5%;
+    }
+}
+
+.last-work-4{
+    .last-work-link{
+	   background-image: url("../img/BiblioPHP.jpg");
+	   background-position: 50% 7.5%;
+	   margin-bottom: 2.5em;
+    }
+}
+
+.last-work-link:hover{
+	background-image: none;
+	background-color: $txtWhite;
+	color: $bgBlue;
+	transition: color 1000ms ease;
+	transition: background-color 500ms ease;
+	transition: transform 500ms ease;
+	transition: background-image 500ms ease;
+}
