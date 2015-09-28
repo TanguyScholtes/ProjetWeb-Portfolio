@@ -13,9 +13,15 @@
 	color: rgba(255,255,255,0); 	//Blanc transparent
 	border-radius: 1em;
 	border: 2px solid $bgBlue;
+<<<<<<< HEAD
     background-color: $bgBlue;
     transition: color 2000ms ease;
 	transition: background-color 1500ms ease;
+=======
+    transition: color 2000ms ease;
+	transition: background-color 1500ms ease;
+	transition: transform 1500ms ease;
+>>>>>>> a7df2c207f383f858d6bf566c46bbdb6d7472f15
 	transition: background-image 1500ms ease;
 }
 
@@ -54,5 +60,9 @@
 	color: $bgBlue;
 	transition: color 2000ms ease;
 	transition: background-color 1500ms ease;
+<<<<<<< HEAD
+=======
+	transition: transform 1500ms ease;
+>>>>>>> a7df2c207f383f858d6bf566c46bbdb6d7472f15
 	transition: background-image 1500ms ease;
 }

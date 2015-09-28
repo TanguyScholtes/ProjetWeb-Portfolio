@@ -17,7 +17,11 @@
 .about__image{
 	width: 12.5em;
 	height: 12.5em;
+<<<<<<< HEAD
 	margin: 1.5em 1.5em 1.5em 0;
+=======
+	margin: 1.5em;
+>>>>>>> a7df2c207f383f858d6bf566c46bbdb6d7472f15
 }
 
 .about__list{
@@ -32,6 +36,7 @@
 
 .about__long-text{
     display: inline-block;
+<<<<<<< HEAD
     float: right;
     min-width: 68%;
     max-width: 74%;
@@ -48,6 +53,26 @@
     font-size: 0.85em;
     display: inline-block;
     padding: 1em;
+=======
+    width: 61%;
+}
+
+.about__text-page{
+    position: relative;
+    left: inherit;
+    top: inherit;
+    display: inline-block;
+    margin-left: 1.5em;
+}
+
+.about__vignette{
+    width: 34%;
+    font-size: 0.85em;
+    display: inline-block;
+    padding: 1em;
+    position: relative;
+    top: -6em;
+>>>>>>> a7df2c207f383f858d6bf566c46bbdb6d7472f15
     
     .about__list{
         padding-bottom: 0;
@@ -65,7 +90,17 @@
     
     .about__image{
         margin: 0.5em auto;
+<<<<<<< HEAD
         width: 95%;
         height: auto;
+=======
+    }
+    
+    .button{
+        position: absolute;
+        top: 49em;
+        text-align: center;
+        width: 90%;
+>>>>>>> a7df2c207f383f858d6bf566c46bbdb6d7472f15
     }
 }

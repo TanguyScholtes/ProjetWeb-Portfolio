@@ -18,7 +18,10 @@ html{
 
 @import "normalize";
 @import "boilerplate";
+<<<<<<< HEAD
 @import "slick";
+=======
+>>>>>>> a7df2c207f383f858d6bf566c46bbdb6d7472f15
 
 
 /*------------BASE------------*/
@@ -31,9 +34,14 @@ body {
 }
 
 .wrapper{
+<<<<<<< HEAD
     margin: 0 auto;
     margin-bottom: 1em;
 	width: 90%;
+=======
+    margin: 4em auto 5em auto;
+	width: 60em;
+>>>>>>> a7df2c207f383f858d6bf566c46bbdb6d7472f15
 }
 
 .title{
@@ -45,12 +53,16 @@ body {
 }
 
 .work__overview{
+<<<<<<< HEAD
     width: 90%;
 }
 
 .center{
     width: 100%;
     text-align: center;
+=======
+    width: 60em;
+>>>>>>> a7df2c207f383f858d6bf566c46bbdb6d7472f15
 }
 
 /*------------OBJECTS------------*/
@@ -63,7 +75,10 @@ body {
 @import "objects-footer";
 @import "objects-about";
 @import "objects-last-works";
+<<<<<<< HEAD
 @import "objects-slider";
+=======
+>>>>>>> a7df2c207f383f858d6bf566c46bbdb6d7472f15
 
 
 /*------------COMPONENTS------------*/
@@ -76,7 +91,10 @@ body {
 @import "components-footer";
 @import "components-about";
 @import "components-last-works";
+<<<<<<< HEAD
 @import "components-slider";
+=======
+>>>>>>> a7df2c207f383f858d6bf566c46bbdb6d7472f15
 
 
 /*------------TRUMPS-------------*/

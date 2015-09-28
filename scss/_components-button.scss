@@ -1,21 +1,29 @@
 .button__link{
+<<<<<<< HEAD
     //background-color: $bgBlue;
     background-image: url('../img/bgBlue.jpg'), url('../img/txtWhite.jpg');
     background-repeat: no-repeat;
     background-position: 0 0, 0 0;
+=======
+    background-color: $bgBlue;
+>>>>>>> a7df2c207f383f858d6bf566c46bbdb6d7472f15
 	text-decoration: none;
 	color: $txtWhite;
 	font-weight: bold;
 	border-radius: 0.5em;
+<<<<<<< HEAD
     border: 2px solid rgba(255,255,255, 1);
     transition: color 500ms ease;
 	//transition: background-color 500ms ease;
     transition: border 500ms ease;
     transition: background-position 500ms ease;
+=======
+>>>>>>> a7df2c207f383f858d6bf566c46bbdb6d7472f15
 }
 
 .button__link:hover{
     border: 2px solid $bgBlue;
+<<<<<<< HEAD
     //background-color: $txtWhite;
     background-position: 0 -55px, 0 0;
     color: $bgBlue;
@@ -23,4 +31,9 @@
 	//transition: background-color 500ms ease;
     transition: border 500ms ease;
     transition: background-position 500ms ease;
+=======
+    background-color: $txtWhite;
+    color: $bgBlue;
+	transform: scale(1.1, 1.1);
+>>>>>>> a7df2c207f383f858d6bf566c46bbdb6d7472f15
 }
