@@ -1,17 +1,17 @@
-.footer{
+.footer__wrapper{
 	background-color: $bgBlue;
 	color: $txtWhite;
 }
 
-.footer-section-list{
+.footer__section__list{
     list-style-type: none;
 }
 
-.footer-section-list-item-title{
+.footer__section__list-item__title{
     font-weight: bold;
 }
 
-.footer-section-list-link{
+.footer__section__list__link{
     color: $txtWhite;
     
     &:hover{
@@ -19,24 +19,21 @@
     }
 }
 
-.footer-sitemap{
-    .footer-section-list-link{
+.footer__sitemap{
+    .footer__section__list__link{
         font-weight: bold;
         text-decoration: none;
     }
 }
 
-.footer-contact{
-    .footer-section-list-link:hover{
+.footer__contact{
+    .footer__section__list__link:hover{
         font-weight: bold;
     }
 }
 
-.footer-social{
-    .footer-section-list-link{
-    
-    }
-    .footer-section-list-item{
+.footer__social{
+    .footer__section__list-item{
         transition: transform 500ms ease;
         
         &:hover{

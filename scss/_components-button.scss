@@ -1,4 +1,4 @@
-.button a{
+.button__link{
     background-color: $bgBlue;
 	text-decoration: none;
 	color: $txtWhite;
@@ -6,7 +6,7 @@
 	border-radius: 0.5em;
 }
 
-.button a:hover{
+.button__link:hover{
     border: 2px solid $bgBlue;
     background-color: $txtWhite;
     color: $bgBlue;

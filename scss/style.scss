@@ -1,6 +1,10 @@
 /*-----------SETTINGS------------*/
 //Default values & breakpoints
 
+html{
+    font-size: 16px;
+}
+
 
 /*------------TOOLS------------*/
 //Mixins, variables & functions
@@ -18,9 +22,6 @@
 
 /*------------BASE------------*/
 //Low-specificity rules for your particular project
-html {
-	background-color: $bgWhite;
-}
 
 body {
 	position: relative;
@@ -33,11 +34,15 @@ body {
 	width: 60em;
 }
 
-.title-hidden{
+.title{
+    font-size: 1.5em;
+}
+
+.title--hidden{
     display: none;
 }
 
-.work-overview{
+.work__overview{
     width: 60em;
 }
 

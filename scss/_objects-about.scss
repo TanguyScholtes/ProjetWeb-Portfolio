@@ -3,39 +3,39 @@
 	padding-bottom: 1em;
 }
 
-.button-about-preview{
+.button__about{
     position: absolute;
     left: 0em;
     top: 8.5em;
 }
 
-.about-title{
+.about__title{
 	margin: 0;
 	font-size: 1.5em;
 }
 
-.about-image{
+.about__image{
 	width: 12.5em;
 	height: 12.5em;
 	margin: 1.5em;
 }
 
-.about-list{
+.about__list{
     padding: 1em;
 }
 
-.about-text{
+.about__text{
 	position: absolute;
 	left: 16em;
 	top: 5em;
 }
 
-.about-long-text{
+.about__long-text{
     display: inline-block;
     width: 61%;
 }
 
-.about-text-page{
+.about__text-page{
     position: relative;
     left: inherit;
     top: inherit;
@@ -43,7 +43,7 @@
     margin-left: 1.5em;
 }
 
-.about-vignette{
+.about__vignette{
     width: 34%;
     font-size: 0.85em;
     display: inline-block;
@@ -51,21 +51,21 @@
     position: relative;
     top: -6em;
     
-    .about-list{
+    .about__list{
         padding-bottom: 0;
         margin-bottom: 0;
         margin-top: 0;
     }
     
-    .about-list-item{
+    .about__list-item{
         margin-bottom: 0.5em;
     }
     
-    .about-image-wrapper{
+    .about__image__wrapper{
         text-align: center;
     }
     
-    .about-image{
+    .about__image{
         margin: 0.5em auto;
     }
     

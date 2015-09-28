@@ -1,4 +1,4 @@
-.work-preview-link{
+.work-preview__link{
     text-decoration: none;
     color: $bgBlue;
     
@@ -7,7 +7,7 @@
     }
 }
 
-.work-preview-image{    
+.work-preview__image{    
     &:hover{
         opacity: 0.75;
     }

@@ -2,16 +2,16 @@
 	border-bottom: 1px solid white;
 }
 
-.about-image{
+.about__image{
     border-radius: 1em;
     border: 2px solid $bgBlue;
 }
 
-.about-list{
+.about__list{
     list-style-type: none;
 }
 
-.about-list-link{
+.about__list__link{
     color: $bgBlue;
     
     &:hover{
@@ -19,21 +19,21 @@
     }
 }
 
-.about-list-title{
+.about__list__title{
     font-weight: bold;
 }
 
-.about-vignette{
+.about__vignette{
     border: none;
     background-color: $bgBlue;
     color: $txtWhite;
     border-radius: 1em;
     
-    .about-list-link{
+    .about__list__link{
         color: $txtWhite;
     }
     
-    .about-image{
+    .about__image{
         border: 2px solid $txtWhite;
     }
 }

@@ -1,5 +1,5 @@
 
-.header-menu{
+.header{
 	width: 100%;
 	position: fixed;
 	left: 0;
@@ -7,23 +7,23 @@
 	z-index: 99;
 }
 
-.site-title{
+.site__title{
     font-size: 1.25em;
 	display: inline-block;
 	margin: 0 0 0 1em;
 }
 
-.site-link{
+.site__link{
     padding: 0.5em;
 	display: inline-block;
 }
 
-.site-subtitle{
+.site__subtitle{
     font-size: 0.75em;
 	margin-left: 1em;
 }
 
-.menu-list{
+.menu__list{
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -31,7 +31,7 @@
 	padding: 0;
 }
 
-.menu-list-link{
+.menu__list__link{
     font-size: 1.25em;
 	display: inline-block;
 	padding: 0.5em 0.75em;
@@ -41,6 +41,6 @@
     }
 }
 
-.menu-list-item{
+.menu__list-item{
 	display: inline-block;
 }

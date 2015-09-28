@@ -8,48 +8,52 @@
 	border-radius: 1em;
 }
 
-.last-work-link{
+.last-work__link{
 	text-decoration: none;
 	color: rgba(255,255,255,0); 	//Blanc transparent
 	border-radius: 1em;
 	border: 2px solid $bgBlue;
+    transition: color 2000ms ease;
+	transition: background-color 1500ms ease;
+	transition: transform 1500ms ease;
+	transition: background-image 1500ms ease;
 }
 
 .last-work-1{
-    .last-work-link{
+    .last-work__link{
 	   background-image: url("../img/LoLActu.jpg");
 	   background-position: 50% 30%;
     }
 }
 
 .last-work-2{
-    .last-work-link{
+    .last-work__link{
 	   background-image: url("../img/HeroesOfTheStorm.jpg");
 	   background-position: 30% 18.5%;
     }
 }
 
 .last-work-3{
-    .last-work-link{
+    .last-work__link{
 	   background-image: url("../img/ConfrerieDesTraducteursSkyrim.jpg");
 	   background-position: 50% 5%;
     }
 }
 
 .last-work-4{
-    .last-work-link{
+    .last-work__link{
 	   background-image: url("../img/BiblioPHP.jpg");
 	   background-position: 50% 7.5%;
 	   margin-bottom: 2.5em;
     }
 }
 
-.last-work-link:hover{
+.last-work__link:hover{
 	background-image: none;
 	background-color: $txtWhite;
 	color: $bgBlue;
-	transition: color 1000ms ease;
-	transition: background-color 500ms ease;
-	transition: transform 500ms ease;
-	transition: background-image 500ms ease;
+	transition: color 2000ms ease;
+	transition: background-color 1500ms ease;
+	transition: transform 1500ms ease;
+	transition: background-image 1500ms ease;
 }
