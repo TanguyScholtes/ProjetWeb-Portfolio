@@ -1,0 +1,71 @@
+.about{
+	position: relative;
+	padding-bottom: 1em;
+}
+
+.button__about{
+    position: absolute;
+    left: 0em;
+    top: 8.5em;
+}
+
+.about__title{
+	margin: 0;
+	font-size: 1.5em;
+}
+
+.about__image{
+	width: 12.5em;
+	height: 12.5em;
+	margin: 1.5em 1.5em 1.5em 0;
+}
+
+.about__list{
+    padding: 1em;
+}
+
+.about__text{
+	position: absolute;
+	left: 16em;
+	top: 5em;
+}
+
+.about__long-text{
+    display: inline-block;
+    float: right;
+    min-width: 68%;
+    max-width: 74%;
+}
+
+.about__text-page{
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.about__vignette{
+    width: 30%;
+    max-width: 30em;
+    font-size: 0.85em;
+    display: inline-block;
+    padding: 1em;
+    
+    .about__list{
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    
+    .about__list-item{
+        margin-bottom: 0.5em;
+    }
+    
+    .about__image__wrapper{
+        text-align: center;
+    }
+    
+    .about__image{
+        margin: 0.5em auto;
+        width: 95%;
+        height: auto;
+    }
+}

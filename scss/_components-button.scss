@@ -1,0 +1,26 @@
+.button__link{
+    //background-color: $bgBlue;
+    background-image: url('../img/bgBlue.jpg'), url('../img/txtWhite.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0, 0 0;
+	text-decoration: none;
+	color: $txtWhite;
+	font-weight: bold;
+	border-radius: 0.5em;
+    border: 2px solid rgba(255,255,255, 1);
+    transition: color 500ms ease;
+	//transition: background-color 500ms ease;
+    transition: border 500ms ease;
+    transition: background-position 500ms ease;
+}
+
+.button__link:hover{
+    border: 2px solid $bgBlue;
+    //background-color: $txtWhite;
+    background-position: 0 -55px, 0 0;
+    color: $bgBlue;
+    transition: color 500ms ease;
+	//transition: background-color 500ms ease;
+    transition: border 500ms ease;
+    transition: background-position 500ms ease;
+}

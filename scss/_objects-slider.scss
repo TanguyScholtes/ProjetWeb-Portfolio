@@ -1,0 +1,43 @@
+.slider__container{
+    width: 100%;
+    margin: 3em auto;
+}
+
+.carousel, .scene{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.scene{
+    position: relative;
+}
+
+.carousel__item{
+    width: 100%;
+}
+
+.carousel__image{
+    width: 100%;
+}
+
+.carousel__text{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    color: $txtWhite;
+    text-align: right;
+    text-shadow: 5px 5px 0 $shadowBlue;
+}
+
+.main-title{
+    font-size: 5em;
+}
+
+.main-subtitle{
+    font-size: 0.5em;
+}
+
+.main-intro{
+    font-size: 2em;
+}

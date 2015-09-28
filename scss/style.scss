@@ -1,0 +1,84 @@
+/*-----------SETTINGS------------*/
+//Default values & breakpoints
+
+html{
+    font-size: 16px;
+}
+
+
+/*------------TOOLS------------*/
+//Mixins, variables & functions
+
+@import "tools-colors";
+@import "tools-mixins";
+
+
+/*------------GENERIC-----------*/
+//Basic definitions for generic elements
+
+@import "normalize";
+@import "boilerplate";
+@import "slick";
+
+
+/*------------BASE------------*/
+//Low-specificity rules for your particular project
+
+body {
+	position: relative;
+	color: $txtBlack;
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+.wrapper{
+    margin: 0 auto;
+    margin-bottom: 1em;
+	width: 90%;
+}
+
+.title{
+    font-size: 1.5em;
+}
+
+.title--hidden{
+    display: none;
+}
+
+.work__overview{
+    width: 90%;
+}
+
+.center{
+    width: 100%;
+    text-align: center;
+}
+
+/*------------OBJECTS------------*/
+//Structure, location and behaviour of repeating sections in your pages
+
+@import "objects-header-menu";
+@import "objects-button";
+@import "objects-form";
+@import "objects-media";
+@import "objects-footer";
+@import "objects-about";
+@import "objects-last-works";
+@import "objects-slider";
+
+
+/*------------COMPONENTS------------*/
+//Aspects of those repeating sections
+
+@import "components-header-menu";
+@import "components-button";
+@import "components-form";
+@import "components-media";
+@import "components-footer";
+@import "components-about";
+@import "components-last-works";
+@import "components-slider";
+
+
+/*------------TRUMPS-------------*/
+//Rules you want to win in every situation
+

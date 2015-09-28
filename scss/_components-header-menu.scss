@@ -1,0 +1,36 @@
+.header{
+    background-color: $bgBlue;
+    color: $txtWhite;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
+
+.site__title{
+    font-weight: bold;
+}
+
+.site__link{
+    color: $txtWhite;
+	text-decoration: none;
+	transition: background 500ms ease;
+    &:hover{
+        color: $txtWhite;
+    }
+}
+
+.site__subtitle{
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-weight: bold;
+	color: darken($txtWhite, 10%);
+}
+
+.menu__list__link{
+    color: $txtWhite;
+    text-decoration: none;
+    
+    &:hover{
+        background-color: $txtWhite;
+        transition: background 500ms ease;
+        color: $bgBlue;
+        border-bottom: 3px solid $bgBlue;
+    }
+}
